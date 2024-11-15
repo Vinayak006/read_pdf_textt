@@ -29,6 +29,8 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 28
 
+namespace 'com.example.read_pdf_text'
+
     defaultConfig {
         minSdkVersion 16
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
